@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>高考英语词汇学习</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>高考英语词汇学习</h1>
+    <div class="card">
+      <h2 id="word">Loading...</h2>
+      <p id="phonetic"></p>
+      <p id="definition"></p>
+      <p id="example" class="example"></p>
+      <div class="buttons">
+        <button onclick="prevWord()">上一词</button>
+        <button onclick="markKnown()">掌握</button>
+        <button onclick="nextWord()">下一词</button>
+      </div>
+    </div>
+    <p>已掌握：<span id="knownCount">0</span> / <span id="totalCount">0</span></p>
+  </div>
+</body>
+</html>
